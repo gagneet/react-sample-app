@@ -1,0 +1,4 @@
+{
+    "modules": "captcha-verify",
+    "resourceName": "cognito31200196VerifyAuthChallengeResponse"
+}

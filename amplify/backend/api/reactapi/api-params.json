@@ -1,0 +1,41 @@
+{
+    "paths": [
+        {
+            "name": "/items",
+            "lambdaFunction": "reactsampleapp",
+            "privacy": {
+                "protected": true,
+                "auth": [
+                    "/PUT",
+                    "/PATCH"
+                ],
+                "unauth": [
+                    "/GET"
+                ]
+            }
+        }
+    ],
+    "resourceName": "reactapi",
+    "apiName": "reactapi",
+    "functionArns": [
+        {
+            "lambdaFunction": "reactsampleapp"
+        }
+    ],
+    "privacy": {
+        "auth": 1,
+        "unauth": 1,
+        "authRoleName": "amplify-react-sample-app-react-110022-authRole",
+        "unAuthRoleName": "amplify-react-sample-app-react-110022-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "reactsampleapp",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}

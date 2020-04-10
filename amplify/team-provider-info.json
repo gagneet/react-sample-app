@@ -1,0 +1,41 @@
+{
+    "react": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-react-sample-app-react-110022-authRole",
+            "UnauthRoleArn": "arn:aws:iam::864020530941:role/amplify-react-sample-app-react-110022-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::864020530941:role/amplify-react-sample-app-react-110022-authRole",
+            "Region": "ap-southeast-2",
+            "DeploymentBucketName": "amplify-react-sample-app-react-110022-deployment",
+            "UnauthRoleName": "amplify-react-sample-app-react-110022-unauthRole",
+            "StackName": "amplify-react-sample-app-react-110022",
+            "StackId": "arn:aws:cloudformation:ap-southeast-2:864020530941:stack/amplify-react-sample-app-react-110022/aab65210-7ac6-11ea-9f23-0abc5d72d376",
+            "AmplifyAppId": "d2162ww1b0mkk9"
+        },
+        "categories": {
+            "auth": {
+                "cognito31200196": {
+                    "facebookAppId": "219745195975297",
+                    "googleClientId": "870353430390-ds03tkscerog1jaru1d8c1i3iue1eu3v.apps.googleusercontent.com",
+                    "amazonAppId": "AKIA4SK5DA367UBKGQON",
+                    "hostedUIProviderCreds": "[{\"ProviderName\":\"Facebook\",\"client_id\":\"219745195975297\",\"client_secret\":\"2bd64a4708a04256ff11087631fd4b19\"},{\"ProviderName\":\"Google\",\"client_id\":\"870353430390-ds03tkscerog1jaru1d8c1i3iue1eu3v.apps.googleusercontent.com\",\"client_secret\":\"rbkE1lPtv_O20Ttsin0_MaEX\"},{\"ProviderName\":\"LoginWithAmazon\",\"client_id\":\"AKIA4SK5DA367UBKGQON\",\"client_secret\":\"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\"}]"
+                }
+            },
+            "function": {
+                "cognito31200196CreateAuthChallenge": {},
+                "cognito31200196CustomMessage": {
+                    "REDIRECTURL": "https://master.d2162ww1b0mkk9.amplifyapp.com/",
+                    "EMAILSUBJECT": "React App",
+                    "EMAILMESSAGE": ""
+                },
+                "cognito31200196DefineAuthChallenge": {},
+                "cognito31200196PostConfirmation": {
+                    "GROUP": "patients"
+                },
+                "cognito31200196VerifyAuthChallengeResponse": {
+                    "RECAPTCHASECRET": "rbkE1lPtv_O20Ttsin0_MaEX"
+                },
+                "cognito31200196PreTokenGeneration": {}
+            }
+        }
+    }
+}

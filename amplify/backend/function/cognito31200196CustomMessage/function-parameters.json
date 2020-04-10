@@ -1,0 +1,24 @@
+{
+    "trigger": true,
+    "modules": [
+        "verification-link"
+    ],
+    "parentResource": "cognito31200196",
+    "functionName": "cognito31200196CustomMessage",
+    "resourceName": "cognito31200196CustomMessage",
+    "parentStack": "auth",
+    "triggerEnvs": [
+        {
+            "key": "RESOURCENAME",
+            "value": "resourceName"
+        }
+    ],
+    "triggerDir": "C:\\Users\\gagneet\\AppData\\Roaming\\npm\\node_modules\\@aws-amplify\\cli\\node_modules\\amplify-category-auth\\provider-utils\\awscloudformation\\utils/../triggers/CustomMessage",
+    "triggerTemplate": "CustomMessage.json.ejs",
+    "roleName": "cognito31200196CustomMessage",
+    "skipEdit": true,
+    "REDIRECTURL": "https://master.d2162ww1b0mkk9.amplifyapp.com/",
+    "EMAILSUBJECT": "React App",
+    "EMAILMESSAGE": "",
+    "RESOURCENAME": "resourceName"
+}

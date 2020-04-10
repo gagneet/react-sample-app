@@ -1,0 +1,16 @@
+{
+    "trigger": true,
+    "modules": [
+        "captcha-verify"
+    ],
+    "parentResource": "cognito31200196",
+    "functionName": "cognito31200196VerifyAuthChallengeResponse",
+    "resourceName": "cognito31200196VerifyAuthChallengeResponse",
+    "parentStack": "auth",
+    "triggerEnvs": [],
+    "triggerDir": "C:\\Users\\gagneet\\AppData\\Roaming\\npm\\node_modules\\@aws-amplify\\cli\\node_modules\\amplify-category-auth\\provider-utils\\awscloudformation\\utils/../triggers/VerifyAuthChallengeResponse",
+    "triggerTemplate": "VerifyAuthChallengeResponse.json.ejs",
+    "roleName": "cognito31200196VerifyAuthChallengeResponse",
+    "skipEdit": true,
+    "RECAPTCHASECRET": "rbkE1lPtv_O20Ttsin0_MaEX"
+}

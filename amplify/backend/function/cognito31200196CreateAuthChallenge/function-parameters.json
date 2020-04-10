@@ -1,0 +1,15 @@
+{
+    "trigger": true,
+    "modules": [
+        "captcha-create-challenge"
+    ],
+    "parentResource": "cognito31200196",
+    "functionName": "cognito31200196CreateAuthChallenge",
+    "resourceName": "cognito31200196CreateAuthChallenge",
+    "parentStack": "auth",
+    "triggerEnvs": [],
+    "triggerDir": "C:\\Users\\gagneet\\AppData\\Roaming\\npm\\node_modules\\@aws-amplify\\cli\\node_modules\\amplify-category-auth\\provider-utils\\awscloudformation\\utils/../triggers/CreateAuthChallenge",
+    "triggerTemplate": "CreateAuthChallenge.json.ejs",
+    "roleName": "cognito31200196CreateAuthChallenge",
+    "skipEdit": true
+}
